@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    height: 100vh;
+    align-items: center;
+    background-color: #EFF3C0;
+    place-content: center;
+}
+
+.card-container {
+    display: grid;
+    margin-left: 5rem;
+    width: 70%;
+    max-width: 450px;
+    min-width: 350px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.photo {
+    background-image: url(img/wave.svg);
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    justify-content: center;
+    padding: 2rem;
+    padding-bottom: 5rem;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 360%;
+}
+
+.card-item {
+    display: grid;
+    text-align: center;
+    background-color: white;
+}
+
+.card-item h1 {
+    padding: .25rem;
+    position: relative;
+    top: -40%;
+}
+
+.card-item .user-id {
+    padding-bottom: .75rem;
+    font-size: 18px;
+}
+
+.social-media {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    padding: .75rem;
+}
+
+.note {
+    padding: 1.5rem;
+    line-height: 1.45rem;
+}
+
+.btn-wrapper {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+.btn {
+    padding: 10px 25px;
+    border-radius: 2rem;
+    font-size: 14px;
+}
+
+#follow {
+    padding: 10px 42px;
+    border-radius: 1rem;
+    background-color:#E0408A;
+    color: white;
+    border: none;
+}
+
+#message {
+    background-color:#fff;
+    color: #AAAAAA;
+    border: 1px solid;
+}
